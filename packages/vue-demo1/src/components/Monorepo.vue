@@ -1,6 +1,6 @@
 <script setup>
 import { isObject, isFunction } from '@libc/shared'
-import { Button, Spin } from '@libc/ui'
+import { Button, Spin } from '@libc/ui-iview'
 import _ from "lodash"
 </script>
 

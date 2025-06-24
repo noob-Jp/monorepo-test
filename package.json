@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "@libc/shared": "workspace:^",
+    "@libc/ui-iview": "workspace:^",
     "@libc/ui": "workspace:^",
     "less": "^2.7.3",
     "typescript": "^3.9.10",
