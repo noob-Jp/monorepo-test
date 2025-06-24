@@ -152,7 +152,7 @@ pnpm install lodash
 ```shell
 pnpm install lodash --filter vue-demo1
 ```
-# 配套代码
+# 参考代码
 [GitHub - burc-li/pnpm-monorepo: vue3 + pnpm + monorepo 项目 demo 🍎](https://github.com/burc-li/pnpm-monorepo)
 
 # 参考文档
