@@ -13,8 +13,10 @@
     "@libc/shared": "workspace:^",
     "@libc/ui": "workspace:^",
     "less": "^2.7.3",
+    "typescript": "^3.9.10",
     "vue": "^3.4.29",
-    "vue-router": "^4.3.3"
+    "vue-router": "^4.3.3",
+    "vue-tsc": "^2.2.10"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.8.0",
