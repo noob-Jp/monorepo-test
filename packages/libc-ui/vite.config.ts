@@ -16,7 +16,7 @@ export default defineConfig({
         vueJsx: vueJsx(),
       },
     }),
-    eslint(),
+    // eslint(),
     dts({
       tsconfigPath: './tsconfig.build.json'
     })

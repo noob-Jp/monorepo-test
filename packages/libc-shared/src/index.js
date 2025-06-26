@@ -22,5 +22,6 @@ export const isArray = Array.isArray
 
 // 判断是否是对象
 export const isObject = function (value) {
+  console.log(111);
   return typeof value === 'object' && value !== null
 }

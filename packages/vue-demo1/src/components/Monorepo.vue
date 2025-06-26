@@ -1,5 +1,5 @@
 <script setup>
-import { isObject, isFunction } from '@libc/shared'
+import { isObject, isFunction } from '@cs-tests/shared'
 import { Button, Spin } from '@libc/ui-iview'
 import _ from "lodash"
 </script>
