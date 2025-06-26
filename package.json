@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@cs-tests/shared": "workspace:*",
+    "@cs-tests/shared": "workspace:^",
     "@libc/ui-iview": "workspace:^",
     "@libc/ui": "workspace:^",
     "less": "^2.7.3",
