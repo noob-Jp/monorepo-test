@@ -161,3 +161,19 @@ pnpm install lodash --filter vue-demo1
 [突破项目瓶颈：2024 年 Monorepo 工具选择和实践 | BEEZEN](https://dongbizhen.com/posts/48225/#2%E3%80%81Changesets)
 
 [GitHub - Tyh2001/vue3-pnpm-monorepo: 🐠 vue3 + pnpm + monorepo 项目 demo](https://github.com/Tyh2001/vue3-pnpm-monorepo)
+
+
+# pnpm.overrides
+
+在 `package.json` 中添加 `pnpm.overrides` 这样做达到的效果是： 
+ - 当在根目录安装依赖时，会覆盖子包的依赖版本，使用本地 workspace 包含的 package；
+ - 当子包不包含在 workspace 中单独克隆到其他位置，安装依赖时，会使用子包具体定义的依赖版本，从npm下载。
+
+
+``` json
+  "pnpm": {
+    "overrides": {
+      "@cs-tests/shared": "workspace:*"
+    }
+  },
+```
